@@ -1,0 +1,117 @@
+{
+  "cleanUrls": true,
+  "functions": {
+    "api/publish.js": {
+      "memory": 128,
+      "maxDuration": 10
+    }
+  },
+  "redirects": [
+    {
+      "source": "/home",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/about.html",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/admin.html",
+      "destination": "/admin",
+      "permanent": true
+    },
+    {
+      "source": "/galleryprompt.html",
+      "destination": "/galleryprompt",
+      "permanent": true
+    },
+    {
+      "source": "/harga-company.html",
+      "destination": "/harga-company",
+      "permanent": true
+    },
+    {
+      "source": "/harga-landing-page.html",
+      "destination": "/harga-landing-page",
+      "permanent": true
+    },
+    {
+      "source": "/harga-umkm.html",
+      "destination": "/harga-umkm",
+      "permanent": true
+    },
+    {
+      "source": "/jasa-sewa.html",
+      "destination": "/jasa-sewa",
+      "permanent": true
+    },
+    {
+      "source": "/jasa-website.html",
+      "destination": "/jasa-website",
+      "permanent": true
+    },
+    {
+      "source": "/project-category.html",
+      "destination": "/project-category",
+      "permanent": true
+    },
+    {
+      "source": "/projects.html",
+      "destination": "/projects",
+      "permanent": true
+    },
+    {
+      "source": "/service.html",
+      "destination": "/service",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/about",
+      "destination": "/pages/about.html"
+    },
+    {
+      "source": "/admin",
+      "destination": "/pages/admin.html"
+    },
+    {
+      "source": "/galleryprompt",
+      "destination": "/pages/galleryprompt.html"
+    },
+    {
+      "source": "/harga-company",
+      "destination": "/pages/harga-company.html"
+    },
+    {
+      "source": "/harga-landing-page",
+      "destination": "/pages/harga-landing-page.html"
+    },
+    {
+      "source": "/harga-umkm",
+      "destination": "/pages/harga-umkm.html"
+    },
+    {
+      "source": "/jasa-sewa",
+      "destination": "/pages/jasa-sewa.html"
+    },
+    {
+      "source": "/jasa-website",
+      "destination": "/pages/jasa-website.html"
+    },
+    {
+      "source": "/project-category",
+      "destination": "/pages/project-category.html"
+    },
+    {
+      "source": "/projects",
+      "destination": "/pages/projects.html"
+    },
+    {
+      "source": "/service",
+      "destination": "/pages/service.html"
+    }
+  ]
+}
